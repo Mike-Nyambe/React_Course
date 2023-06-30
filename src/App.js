@@ -49,9 +49,15 @@ const pizzaData = [
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Pizza />
     </>
   );
 }
-
+function Pizza() {
+  return (
+    <>
+      <h1>Pixaa</h1>
+    </>
+  );
+}
 export default App;
